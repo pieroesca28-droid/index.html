@@ -5,6 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Wazi - Cuartos cerca de tu universidad</title>
+<style>
+/* Colores que usamos en toda la página */
+:root{--fondo:#f4f9f6;--texto:#222222;--verde:#1b6b4a;--claro:#dff0e6;--borde:#9bb8a8;
+padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--fondo:#1c1f1d;--texto:#eeeeee;--verde:#5fd09a;--claro:#26332c;--borde:#555555}}
+
+/* Toda la página */
+body{background:var(--fondo);color:var(--texto);font-family:Verdana,Arial,sans-serif;max-width:800px;margin:0 auto;padding:20px;line-height:1.6}
+
+/* Títulos */
+h1{color:var(--verde);text-align:center;font-size:2.5rem;margin-bottom:0}
+h1 + h3{text-align:center}
+h2{color:var(--verde)}
+
+/* Enlaces, líneas y tablas */
+a{color:var(--verde)}
+hr{border:0;border-top:2px solid var(--verde);margin:25px 0}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid var(--borde);padding:8px;text-align:left}
+th{background:var(--claro)}
+
+/* Cajas desplegables */
+details{background:var(--claro);padding:8px 12px;margin:8px 0;border-radius:6px}
+summary{cursor:pointer;font-weight:bold}
+</style>
 </head>
 <body>
 
